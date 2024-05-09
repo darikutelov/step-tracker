@@ -22,7 +22,7 @@ enum HealthMetricContext: CaseIterable, Identifiable {
     }
 }
 
-struct ContentView: View {
+struct DashboardView: View {
     @State private var selectadStat: HealthMetricContext = .steps
     
     var isSteps: Bool {
@@ -95,12 +95,7 @@ struct ContentView: View {
             .padding()
             .navigationTitle("Dashboard")
             .navigationDestination(for: HealthMetricContext.self) { metric in
-                switch metric {
-                case .steps:
-                    Text("Steps")
-                case .weight:
-                    Text("Weight")
-                }
+                HealthDataListView(metric: metric)
             }
         }
         .tint(isSteps ? .pink : .indigo) // color of the back button on next view
@@ -108,5 +103,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DashboardView()
 }
