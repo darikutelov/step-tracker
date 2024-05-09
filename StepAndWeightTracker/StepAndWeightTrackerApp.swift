@@ -11,7 +11,7 @@ import SwiftUI
 struct StepAndWeightTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }
