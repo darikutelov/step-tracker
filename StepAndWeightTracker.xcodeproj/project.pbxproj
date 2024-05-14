@@ -12,6 +12,7 @@
 		9CC97F602BEB7D5F00807C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC97F5F2BEB7D5F00807C29 /* Assets.xcassets */; };
 		9CC97F632BEB7D5F00807C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC97F622BEB7D5F00807C29 /* Preview Assets.xcassets */; };
 		9CEB4DB22BECB133001AB656 /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEB4DB12BECB132001AB656 /* HealthDataListView.swift */; };
+		9CFCB0552BF39D10007259D9 /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCB0542BF39D10007259D9 /* HealthKitPermissionPrimingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9CC97F5F2BEB7D5F00807C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC97F622BEB7D5F00807C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9CEB4DB12BECB132001AB656 /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
+		9CFCB0542BF39D10007259D9 /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				9CC97F5B2BEB7D5900807C29 /* StepAndWeightTrackerApp.swift */,
 				9CC97F5D2BEB7D5900807C29 /* DashboardView.swift */,
+				9CFCB0542BF39D10007259D9 /* HealthKitPermissionPrimingView.swift */,
 				9CEB4DB12BECB132001AB656 /* HealthDataListView.swift */,
 				9CC97F5F2BEB7D5F00807C29 /* Assets.xcassets */,
 				9CC97F612BEB7D5F00807C29 /* Preview Content */,
@@ -143,6 +146,7 @@
 				9CEB4DB22BECB133001AB656 /* HealthDataListView.swift in Sources */,
 				9CC97F5E2BEB7D5900807C29 /* DashboardView.swift in Sources */,
 				9CC97F5C2BEB7D5900807C29 /* StepAndWeightTrackerApp.swift in Sources */,
+				9CFCB0552BF39D10007259D9 /* HealthKitPermissionPrimingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
