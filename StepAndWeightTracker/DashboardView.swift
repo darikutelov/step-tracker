@@ -61,7 +61,7 @@ struct DashboardView: View {
                         }
                         .foregroundStyle(.secondary)
                         .padding(.bottom, 12)
-
+                        
                         RoundedRectangle(cornerRadius: 12.0)
                             .foregroundStyle(.secondary)
                             .frame(height: 150)
@@ -102,6 +102,10 @@ struct DashboardView: View {
                 
                 // add sample data
                 // await hkManager.addSimulatorData()
+                
+                // fetch data
+                // await hkManager.fetchStepCount()
+                // await hkManager.fetchWeight()
             }
             .navigationTitle("Dashboard")
             .navigationDestination(for: HealthMetricContext.self) { metric in
@@ -112,7 +116,7 @@ struct DashboardView: View {
             } content: {
                 HealthKitPermissionPrimingView(hasSeen: $hasSeenPermissingPriming)
             }
-
+            
         }
         .tint(isSteps ? .pink : .indigo) // color of the back button on next view
     }
